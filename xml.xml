@@ -1,0 +1,133 @@
+<syster>
+  <db name="rogozno.db" />
+  <ip addr="192.168.0.123" />
+  <password text="slawek" />
+  <moxa>
+    <port id="1" number="4001" />
+    <port id="2" number="4002" />
+    <port id="3" number="4003" />
+    <port id="4" number="4004" />
+  </moxa>
+  <mbus>
+    <port id="1" number="0" />
+    <port id="2" number="0" />
+    <port id="3" number="0" />
+    <port id="4" number="0" />
+  </mbus>
+  <time>
+    <time id="1" value="10000" />
+    <time id="2" value="10000" />
+    <time id="0" value="1000" />
+  </time>
+  <objects>
+    <object name="101" type="image" mux="0" nr="0" x="147" y="156" />
+    <object name="102" type="image" mux="0" nr="1" x="468" y="4" />
+    <object name="103" type="image" mux="0" nr="2" x="312" y="4" />
+    <object name="104" type="image" mux="0" nr="3" x="155" y="3" />
+    <object name="105" type="image" mux="0" nr="4" x="309" y="109" />
+    <object name="106" type="image" mux="0" nr="5" x="444" y="103" />
+    <object name="107" type="image" mux="0" nr="6" x="92" y="185" />
+    <object name="109" type="image" mux="0" nr="8" x="63" y="215" />
+    <object name="201" type="image" mux="1" nr="0" x="148" y="503" />
+    <object name="202" type="image" mux="1" nr="1" x="468" y="307" />
+    <object name="203" type="image" mux="1" nr="2" x="311" y="306" />
+    <object name="204" type="image" mux="1" nr="3" x="155" y="306" />
+    <object name="205" type="image" mux="1" nr="4" x="309" y="454" />
+    <object name="206" type="image" mux="1" nr="5" x="445" y="450" />
+    <object name="207" type="image" mux="1" nr="6" x="61" y="539" />
+    <object name="209" type="image" mux="1" nr="8" x="61" y="564" />
+    <object name="301" type="image" mux="2" nr="0" x="148" y="849" />
+    <object name="302" type="image" mux="2" nr="1" x="469" y="672" />
+    <object name="303" type="image" mux="2" nr="2" x="309" y="672" />
+    <object name="304" type="image" mux="2" nr="3" x="152" y="673" />
+    <object name="305" type="image" mux="2" nr="4" x="310" y="801" />
+    <object name="306" type="image" mux="2" nr="5" x="447" y="859" />
+    <object name="307" type="image" mux="2" nr="6" x="61" y="884" />
+    <object name="309" type="image" mux="2" nr="8" x="61" y="908" />
+    <object name="402" type="image" mux="3" nr="1" x="822" y="296" />
+    <object name="403" type="image" mux="3" nr="2" x="1113" y="297" />
+    <object name="404" type="image" mux="3" nr="3" x="1028" y="429" />
+    <object name="405" type="image" mux="3" nr="4" x="801" y="802" />
+    <object name="406" type="image" mux="3" nr="5" x="1097" y="549" />
+    <object name="407" type="image" mux="3" nr="6" x="800" y="667" />
+    <object name="408" type="image" mux="3" nr="7" x="792" y="926" />
+    <object name="409" type="image" mux="3" nr="8" x="953" y="144" />
+    <object name="410" type="image" mux="3" nr="9" x="832" y="902" />
+    <object name="411" type="image" mux="3" nr="10" x="831" y="995" />
+    <object name="412" type="image" mux="3" nr="11" x="887" y="202" />
+    <object name="413" type="image" mux="3" nr="12" x="993" y="202" />
+    <object name="414" type="image" mux="3" nr="13" x="1103" y="203" />
+    <object name="415" type="image" mux="3" nr="14" x="1180" y="86" />
+    <object name="416" type="image" mux="3" nr="15" x="1180" y="131" />
+    <object name="417" type="image" mux="3" nr="16" x="1187" y="883" />
+    <object name="d510" type="value" mux="3" nr="5" x="1053" y="339" />
+    <object name="F195" type="value" mux="0" nr="5" x="180" y="7" />
+    <object name="F295" type="value" mux="1" nr="5" x="178" y="309" />
+    <object name="F395" type="value" mux="2" nr="5" x="175" y="676" />
+    <object name="F639" type="value" mux="3" nr="15" x="1141" y="465" />
+    <object name="L512" type="value" mux="3" nr="7" x="824" y="804" />
+    <object name="LVL"  type="level" x="968" y="680" />
+    <object name="MUX1" type="net" mux="0" x="1070" y="970" />
+    <object name="MUX2" type="net" mux="1" x="1120" y="970" />
+    <object name="MUX3" type="net" mux="2" x="1170" y="970" />
+    <object name="MUX4" type="net" mux="3" x="1220" y="970" />
+    <object name="P112" type="value" mux="0" nr="0" x="493" y="7" />
+    <object name="P115" type="value" mux="0" nr="2" x="328" y="57" />
+    <object name="P212" type="value" mux="1" nr="0" x="491" y="309" />
+    <object name="P215" type="value" mux="1" nr="2" x="330" y="403" />
+    <object name="P312" type="value" mux="2" nr="0" x="492" y="675" />
+    <object name="P507" type="value" mux="3" nr="3" x="988" y="299" />
+    <object name="P509" type="value" mux="3" nr="4" x="986" y="410" />
+    <object name="P514" type="value" mux="3" nr="8" x="973" y="551" />
+    <object name="PAL1" type="palnik" nr="0" x="143" y="212" />
+    <object name="PAL2" type="palnik" nr="1" x="143" y="558" />
+    <object name="PAL3" type="palnik" nr="2" x="143" y="904" />
+    <object name="Q610" type="value" mux="3" nr="14" x="1141" y="484" />
+    <object name="Q626" type="value" mux="3" nr="13" x="1141" y="503" />
+    <object name="T114" type="value" mux="0" nr="1" x="440" y="197" />
+    <object name="T116" type="value" mux="0" nr="3" x="291" y="93" />
+    <object name="T119" type="value" mux="0" nr="4" x="337" y="7" />
+    <object name="T126" type="value" mux="0" nr="6" x="206" y="57" />
+    <object name="T131" type="value" mux="0" nr="7" x="314" y="211" />
+    <object name="T214" type="value" mux="1" nr="1" x="441" y="541" />
+    <object name="T216" type="value" mux="1" nr="3" x="291" y="438" />
+    <object name="T219" type="value" mux="1" nr="4" x="334" y="309" />
+    <object name="T226" type="value" mux="1" nr="6" x="208" y="403" />
+    <object name="T231" type="value" mux="1" nr="7" x="314" y="557" />
+    <object name="T314" type="value" mux="2" nr="1" x="441" y="952" />
+    <object name="T316" type="value" mux="2" nr="3" x="289" y="786" />
+    <object name="T319" type="value" mux="2" nr="4" x="332" y="675" />
+    <object name="T503" type="value" mux="3" nr="0" x="1098" y="33" />
+    <object name="T504" type="value" mux="3" nr="1" x="848" y="299" />
+    <object name="T505" type="value" mux="3" nr="2" x="986" y="392" />
+    <object name="T517" type="value" mux="3" nr="9" x="823" y="669" />
+    <object name="T594" type="value" mux="3" nr="11" x="1141" y="522" />
+    <object name="T604" type="value" mux="3" nr="16" x="1141" y="427" />
+    <object name="T605" type="value" mux="3" nr="17" x="1141" y="446" />
+    <object name="TXT01" type="text" text="KOCIOú NR 1" x="183" y="250" nr="0" />
+    <object name="TXT02" type="text" text="KOCIOú NR 2" x="182" y="596" nr="1" />
+    <object name="TXT03" type="text" text="KOCIOú NR 3" x="184" y="942" nr="2" />
+    <object name="TXT04" type="text" text="SIEÃ" x="968" y="340" nr="3" />
+    <object name="TXT05" type="text" text="STACJA UZDATNIANIA" x="1146" y="844" nr="4" />
+    <object name="TXT06" type="text" text="woda wylotowa" x="461" y="41" nr="5" />
+    <object name="TXT07" type="text" text="woda" x="654" y="165" nr="6" />
+    <object name="TXT08" type="text" text="woda wylotowa" x="463" y="340" nr="7" />
+    <object name="TXT09" type="text" text="woda" x="653" y="511" nr="8" />
+    <object name="TXT10" type="text" text="woda wylotowa" x="462" y="704" nr="9" />
+    <object name="TXT11" type="text" text="woda" x="654" y="919" nr="10" />
+    <object name="TXT12" type="text" text="N181" x="443" y="126" nr="11" />
+    <object name="TXT13" type="text" text="N281" x="443" y="472" nr="12" />
+    <object name="TXT14" type="text" text="N381" x="445" y="881" nr="13" />
+    <object name="TXT15" type="text" text="N601" x="827" y="834" nr="14" />
+    <object name="TXT16" type="text" text="N602" x="827" y="930" nr="15" />
+    <object name="TXT17" type="text" text="N603" x="831" y="193" nr="16" />
+    <object name="TXT18" type="text" text="N604" x="937" y="194" nr="17" />
+    <object name="TXT19" type="text" text="N605" x="1046" y="194" nr="18" />
+    <object name="U191" type="value" mux="0" nr="9" x="4" y="5" />
+    <object name="U192" type="value" mux="0" nr="10" x="4" y="30" />
+    <object name="U291" type="value" mux="1" nr="9" x="4" y="310" />
+    <object name="U292" type="value" mux="1" nr="10" x="4" y="335" />
+    <object name="U391" type="value" mux="2" nr="9" x="4" y="675" />
+    <object name="U392" type="value" mux="2" nr="10" x="4" y="702" />
+  </objects>
+</syster>
