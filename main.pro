@@ -1,0 +1,9 @@
+HEADERS += main.h
+HEADERS += xml.h
+HEADERS += mb.h
+SOURCES += main.cpp
+SOURCES += xml.cpp
+SOURCES += mb.cpp
+CONFIG  += console
+QT      += xml
+QT      += network
